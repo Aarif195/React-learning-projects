@@ -1,0 +1,12 @@
+/* src/components/CourseDetails.css */
+.bg-purple-100 {
+  background-color: #f3e8ff;
+}
+
+ul li span {
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #6b21a8;
+}

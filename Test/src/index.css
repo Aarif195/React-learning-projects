@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: rgb(177, 120, 230);
+}
+
+.app {
+    background-color: rgb(177, 120, 230);
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.learnBox {
+  /* background-color: white; */
+  color: black;
+  width: 500px;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+.learn {
+  display: flex;
+  align-items: center;
+}
+
+.courseoutline {
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 20px; */
+   border: 2px solid green;
+  border-radius: 20px;
+  /* background-color: orange; */
+    width: 500px;
+
+  }
+
+  .lool {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .line {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+background-color: #fff;
+
+  }

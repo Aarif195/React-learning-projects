@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(177, 120, 230);
+}
+
+.app {
+  background-color: rgb(177, 120, 230);
+  border: 2px solid rgb(38, 19, 70);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+  /* height: 100vh; */
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.learnBox {
+  /* background-color: white; */
+  color: black;
+  /* width: 500px; */
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.learn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 15px;
+  height: 15px;
+}
+
+.courseoutline {
+  border: 2px solid green;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 500px; */
+}
+
+.lool {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.lolls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.secondSize {
+  width: 400px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  height: 68vh;
+  /* height: auto; */
+  background-color: white;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.yes {
+  padding: 10px;
+  color: black;
+}
+
+h4 {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.pre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headpeterCount {
+  margin-top: 20px;
+}
+
+.peterCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.enrolCon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.enroll {
+  background-color: purple;
+  color: #fff;
+  padding: 10px 140px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+}
+
+.person {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 150px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.pre p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pre button {
+  background-color: rgb(223, 115, 223);
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.team p {
+  font-weight: bold;
+}
+
+.team p span {
+  display: block;
+  font-weight: lighter;
+}
+
+.teeimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 20px;
+  }
+ 
+  .text {
+    font-size: 20px;
+  }
+
+  .secondSize {
+    width: 350px;
+    height: auto;
+  }
+
+  .person {
+    width: 350px;
+  }
+
+  .enroll {
+    padding: 10px 130px;
+    font-size: 10px;
+  }
+}

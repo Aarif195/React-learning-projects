@@ -3,6 +3,7 @@ import { faker } from "@faker-js/faker";
 import { createContext } from "react";
 import { useContext } from "react";
 import { PostProvider, usePosts } from "./PostContext";
+import Test from "./Test";
 
 function createRandomPost() {
   return {
@@ -12,9 +13,6 @@ function createRandomPost() {
 }
 
 function AppV1() {
-
-
-
   // Whenever `isFakeDark` changes, we toggle the `fake-dark-mode` class on the HTML element (see in "Elements" dev tool).
   const [isFakeDark, setIsFakeDark] = useState(false);
 
@@ -132,6 +130,7 @@ function List() {
   const { posts } = usePosts();
 
   return (
+    <>
     <ul>
       {posts.map((post, i) => (
         <li key={i}>
@@ -140,6 +139,8 @@ function List() {
         </li>
       ))}
     </ul>
+{/* <Test/> */}
+    </>
   );
 }
 
